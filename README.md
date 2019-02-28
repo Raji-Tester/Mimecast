@@ -3,7 +3,7 @@ Please check all branches
 Please check all branches 
 Please check all branches 
 
-
+post man 
 
 1.Tag – Attribute – Value Trio  =  Syntax = //tagname[@attribute=’Value‘]  Example: //input[@id, ‘user-message’]
 
@@ -71,3 +71,11 @@ You can also continue to search and find the related hotel’s price element wit
  *  
  * 		findFirst();
  *  	forEach();
+ =====================================================================================================
+ Open Postman.
+Enter URL in the URL bar http://{server:port}/json/metallica/post.
+Click Headers button and enter Content-Type as header and application/json in value.
+Select POST from the dropdown next to the URL text box.
+Select raw from the buttons available below URL text box.
+Select JSON from the following dropdown.
+In the textarea available below, post your request object
