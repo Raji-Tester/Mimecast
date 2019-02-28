@@ -48,4 +48,26 @@ You can also continue to search and find the related hotel’s price element wit
 (//span[contains(text(),’odamax’)])[1]/following-sibling::strong[@class=’deals__price’]
 
 =======================================================================================================
-
+ Intermediate:  
+ *  // filter ,map or sorting we can chain multiple intermediate operation (zero or more) 
+ *  // because it will pass the stream next ,enable parallel stream for multiple Treading 
+ *    
+ *  	.anyMatch();     	.flatmap();  
+ *  	.distinct();  		.map()
+ *      .filter();			.skip()
+ *      .find first 		.sorted()
+ *      	  
+ *   *  
+ *  Terminate:    
+ *  // such as forEach,collect or either void or return a NonStream result 
+ *  //one terminal operation is allowed
+ *  	forEach applies same function to each element 
+ *  	collect saves elements into collection
+ *  	other options reduce the stream to a single summary elements 
+ *  
+ *  	.count()		reduce()
+ *  	.match()		summaryStatistics()
+ *  	.min()	
+ *  
+ * 		findFirst();
+ *  	forEach();
